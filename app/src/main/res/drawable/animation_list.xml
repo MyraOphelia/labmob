@@ -5,6 +5,8 @@
         <item android:drawable="@drawable/kitten" android:duration="210" />
         <item android:drawable="@drawable/puppy" android:duration="210" />
         <item android:drawable="@drawable/quokka" android:duration="210" />
-     <item android:drawable="@drawable/seal" android:duration="210" />
+    <item android:drawable="@drawable/quokka" android:duration="210" />
+
+    <item android:drawable="@drawable/seal" android:duration="210" />
 
 </animation-list>
