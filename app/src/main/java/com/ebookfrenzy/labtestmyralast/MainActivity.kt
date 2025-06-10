@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
 
         val imageView: ImageView = findViewById(R.id.imageView)
         imageView.setImageResource(R.drawable.kitten)
+        imageView.setImageResource(R.drawable.kitten)
+
 
     }
 }
