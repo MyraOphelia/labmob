@@ -8,7 +8,9 @@
     tools:context=".MainActivity">
 
 
-        <!-- Image View to show selected animal -->
+    <!-- Image View to show selected animal -->
+
+    <!-- Horizontal chain of animal buttons -->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
@@ -17,11 +19,12 @@
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/animalButtons"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blank" />
 
-        <!-- Horizontal chain of animal buttons -->
-        <LinearLayout
+    <LinearLayout
             android:id="@+id/animalButtons"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
