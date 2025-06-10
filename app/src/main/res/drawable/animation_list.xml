@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+        android:oneshot="false">
+        <item android:drawable="@drawable/hamster" android:duration="210" />
+        <item android:drawable="@drawable/kitten" android:duration="210" />
+        <item android:drawable="@drawable/puppy" android:duration="210" />
+        <item android:drawable="@drawable/quokka" android:duration="210" />
+     <item android:drawable="@drawable/seal" android:duration="210" />
+
+</animation-list>
