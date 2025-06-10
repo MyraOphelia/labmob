@@ -7,17 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
         <!-- Image View to show selected animal -->
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:scaleType="fitCenter"
-            android:contentDescription="Animal Image"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/animalButtons"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/animal_image"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/animalButtons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
         <!-- Horizontal chain of animal buttons -->
         <LinearLayout
@@ -56,4 +57,4 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
