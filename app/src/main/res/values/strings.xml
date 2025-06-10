@@ -1,10 +1,3 @@
 <resources>
     <string name="app_name">LabTestMyraLast</string>
-    <string name="hamster">Hamster</string>
-    <string name="kitten">Kitten</string>
-    <string name="_1">1</string>
-    <string name="puppy">Puppy</string>
-    <string name="quokka">Quokka</string>
-    <string name="seal">Seal</string>
-    <string name="_2">2</string>
 </resources>
